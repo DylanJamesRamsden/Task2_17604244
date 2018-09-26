@@ -635,89 +635,6 @@ namespace GADE6112_POE
             }
         }
 
-        //public void FindWinner() //This method is used to see if there is a winner
-        //{
-        //    int Healthy = 0; //This variables holds the number of Units that have more than 25 HP
-        //    int redCounter = 0; //This variable holds the number of red Units still alive
-        //    int blueCounter = 0; //This variable holds the number of blue Units still alive
-
-        //    for (int i= 0; i < M.UnitsOnMap.Length; i++) //This for loop runs through all the units, checking if they are alive or not, and if they have more than 25 HP
-        //    {
-        //        if (M.UnitsOnMap[i].GetType() == typeof(MeleeUnit))
-        //        {
-        //            MeleeUnit soldier = (MeleeUnit)M.UnitsOnMap[i];
-        //            if (soldier.IsAlive == true) //This if statement checks if the current Unit is alive
-        //            {
-        //                if (soldier.Health > 25) //This if statement checks if the current Unit has less than 25 HP
-        //                {
-        //                    Healthy++;
-        //                }
-        //                if (soldier.Faction == "Red") //This if statement checks if the current Unit is on the Red team
-        //                {
-        //                    redCounter++; //Increases the Red team counter
-        //                }
-        //                else blueCounter++; //Increases the Blue team counter
-        //            }
-        //        }
-        //        else
-        //        {
-        //            RangedUnit soldier = (RangedUnit)M.UnitsOnMap[i];
-        //            if (soldier.IsAlive == true)
-        //            {
-        //                if (soldier.Health > 25)
-        //                {
-        //                    Healthy++;
-        //                }
-        //                if (soldier.Faction == "Red")
-        //                {
-        //                    redCounter++;
-        //                }
-        //                else blueCounter++;
-        //            }
-        //        }
-        //    }
-
-        //    if (redCounter==0) //This if statement checks if the redCounter is 0 (if the red team wins)
-        //    {
-        //        gameTimer.Enabled = false;
-        //        MessageBox.Show("Blue Team wins!!!!");
-        //        newGame();
-        //    }
-        //    else if (blueCounter == 0) //This if statement checks if the blueCounter is 0 (if the Blue team wins)
-        //    {
-        //        gameTimer.Enabled = false;
-        //        MessageBox.Show("Red Team wins!!!!");
-        //        newGame();
-        //    }
-        //    else if (Healthy == 0) //If no team wins and all units on the guiMAP are below or equal to 25 HP then the battle is a tie
-        //    { 
-        //        gameTimer.Enabled = false;
-        //        MessageBox.Show("Tie");
-        //        newGame();
-        //    }
-        //}
-
-        //public void newGame() //This method is used to ask the user if they would like to start a new game
-        //{
-        //    for (int x = 0; x < 20; x++)
-        //    {
-        //       for (int y = 0; y < 20; y++)
-        //        {
-        //            guiMAP[x, y].Visible = false;
-        //        }
-        //    }
-        //    Info.Visible = false;
-        //    Start.Visible = false;
-        //    Pause.Visible = false;
-        //    GameTimeDisplay.Visible = false;
-        //    NewGame.Visible = true;
-        //    NewGame.Enabled = true;
-        //    newGameButton.Visible = true;
-        //    newGameButton.Enabled = true;
-        //    M.Seconds = 0;
-        //    M.Minutes = 0;         
-        //}
-
         public void CreateMap(Form active) //This method is used to add picture boxs to and vusally create the guiMAP
         {
             for (int x = 0; x < 20; x++) //The map is 20x20, this is why there is a loop for the X values and Y values
@@ -990,16 +907,6 @@ namespace GADE6112_POE
             NewGame.Visible = false;
             NewGame.Enabled = false;
             active.Controls.Add(NewGame);
-
-            //newGameButton = new Button(); //Creates a Button
-            //newGameButton.Location = new System.Drawing.Point(400, 350);
-            //newGameButton.Size = new System.Drawing.Size(260, 40);
-            //newGameButton.Text = "Start Game";
-            //newGameButton.Font = new System.Drawing.Font(Info.Font.FontFamily, 12);
-            //newGameButton.Visible = false;
-            //newGameButton.Enabled = false;
-            //newGameButton.Click += new EventHandler(this.NewGame_Click);
-            //active.Controls.Add(newGameButton);
         }
 
         void Pause_Click(object sender, System.EventArgs e) //This method runs when the Pause button has been clicked

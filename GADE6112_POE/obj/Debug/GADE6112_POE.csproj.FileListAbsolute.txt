@@ -18,3 +18,13 @@ C:\Users\Kylo_Ren\Desktop\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_
 C:\Users\Kylo_Ren\Desktop\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.csproj.CoreCompileInputs.cache
 C:\Users\Kylo_Ren\Desktop\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.exe
 C:\Users\Kylo_Ren\Desktop\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.pdb
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\bin\Debug\GADE6112_POE.exe.config
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\bin\Debug\GADE6112_POE.exe
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\bin\Debug\GADE6112_POE.pdb
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.csprojResolveAssemblyReference.cache
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.frmGameMat.resources
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.Properties.Resources.resources
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.csproj.GenerateResource.cache
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.csproj.CoreCompileInputs.cache
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.exe
+C:\Users\Kylo_Ren\Desktop\Task2\Ramsden_17604244\17604244\GADE6112_POE\GADE6112_POE\obj\Debug\GADE6112_POE.pdb
