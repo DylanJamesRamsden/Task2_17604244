@@ -60,8 +60,6 @@ namespace GADE6112_POE
             }
             else GameTimeDisplay.Text = "Time: " + M.Minutes.ToString() + ":" + M.Seconds.ToString();
 
-            //if (M.getUnits() > 0)
-            //{
                 for (int i = 0; i < M.UnitsOnMap.Length; i++) //This for loops runs through every Unit within the current simulation
                 {
                 if (M.UnitsOnMap[i] != null)
@@ -187,7 +185,6 @@ namespace GADE6112_POE
                     else if (M.UnitsOnMap[i].GetType() == typeof(RangedUnit))
                     {
                         RangedUnit soldier = (RangedUnit)M.UnitsOnMap[i];
-                        //soldier.closestUnit(UnitsOnMap);
                         if (soldier.IsAlive == true)
                         {
                             if (soldier.Health > 25)
@@ -536,7 +533,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos + scaredSoldier.Speed, scaredSoldier.YPos, scaredSoldier.XPos, scaredSoldier.YPos); //The units movement is multiplied by its movement speed because it is running 
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 1:
@@ -548,7 +544,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos - scaredSoldier.Speed, scaredSoldier.YPos, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 2:
@@ -560,7 +555,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos, scaredSoldier.YPos + scaredSoldier.Speed, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 3:
@@ -572,7 +566,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos, scaredSoldier.YPos - scaredSoldier.Speed, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                 }
@@ -592,7 +585,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos + scaredSoldier.Speed, scaredSoldier.YPos, scaredSoldier.XPos, scaredSoldier.YPos); //The units movement is multiplied by its movement speed because it is running 
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 1:
@@ -604,7 +596,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos - scaredSoldier.Speed, scaredSoldier.YPos, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 2:
@@ -616,7 +607,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos, scaredSoldier.YPos + scaredSoldier.Speed, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                     case 3:
@@ -628,7 +618,6 @@ namespace GADE6112_POE
                         else
                         {
                             updatePos(soldier, scaredSoldier.XPos, scaredSoldier.YPos - scaredSoldier.Speed, scaredSoldier.XPos, scaredSoldier.YPos);
-                            //scaredSoldier.Health = scaredSoldier.Health - 5; //The soldier eventually bleeds out
                         }
                         break;
                 }
